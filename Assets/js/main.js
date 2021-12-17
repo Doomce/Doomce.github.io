@@ -13,13 +13,6 @@
         }
     });
 
-    var myFullpage = new fullpage('#fullpage', {
-        licenseKey: null,
-        verticalCentered: false,
-        navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: [],
-        showActiveTooltip: false,
-    });
+    
 
 })(jQuery);
