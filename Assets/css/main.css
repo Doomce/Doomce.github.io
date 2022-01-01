@@ -237,7 +237,7 @@ section.hero__section {
     justify-content: space-between;
     padding-left: 0;
     position: relative;
-    top: 48vh;
+    top: 10vh;
 }
 
 .hero__section h2 {
@@ -251,7 +251,7 @@ section.hero__section {
     color: #b1b1b1;
 }
 
-.hero-text {
+.hero__section .container {
     position: relative;
     top: 20vh;
 }
