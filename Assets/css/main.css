@@ -168,7 +168,7 @@ btn:visited {
     z-index: 5;
 }
 
-.hero__symbols img {
+.hero-symbols img {
     width: 75px;
     height: 75px;
 }
@@ -177,7 +177,7 @@ btn:visited {
     height: 48vh;
 }
 
-.hero__symbols .col {
+.hero-symbols .col {
     text-align-last: center;
 }
 
@@ -228,21 +228,16 @@ section.hero__section {
     height: 100vh;
 }
 
-.hero__section .container {
-    vertical-align: middle;
-    top: 20%;
-    position: relative;
-}
-
-.hero__section .hero__symbols {
-    margin-top: 20vh;
-    padding-bottom: 10px;
+.hero__section .hero-symbols {
+    /* margin-top: 20vh; */
+    /* padding-bottom: 10px; */
     border-bottom: 10px solid var(--second-elements-color);
     display: flex;
     list-style: none;
     justify-content: space-between;
     padding-left: 0;
     position: relative;
+    top: 48vh;
 }
 
 .hero__section h2 {
@@ -256,12 +251,17 @@ section.hero__section {
     color: #b1b1b1;
 }
 
+.hero-text {
+    position: relative;
+    top: 20vh;
+}
+
 @media (max-width: 575.98px) {
     .hero__section h2 {
         font-size: 150%;
     }
 
-    .hero__symbols img {
+    .hero-symbols img {
         display: none;
     }
 
@@ -285,7 +285,7 @@ section.hero__section {
     .hero__section h2 {
         font-size: 170%;
     }
-    .hero__symbols img {
+    .hero-symbols img {
         display: none;
     }
     
@@ -297,11 +297,11 @@ section.hero__section {
         font-size: 200%;
     }
 
-    .hero__symbols img {
+    .hero-symbols img {
         display: none;
     }
 
-    .hero__section .hero__symbols {
+    .hero__section .hero-symbols {
         margin-top: 10vh;
     }
 }
